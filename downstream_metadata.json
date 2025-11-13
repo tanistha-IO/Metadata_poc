@@ -14,5 +14,9 @@
   {
     "description": "The customer_order_summary table provides a consolidated view of each customer's purchasing activity. For every customer it records the unique identifier, full name, and email address, along with a series of aggregated metrics: the total number of orders placed, the count of orders currently in progress (status Shipped or Processing), the count of orders that have been completed, and the count of orders that were cancelled. It also captures the total monetary value spent across all orders, the date of the earliest order, and the date of the most recent order. Additional demographic information includes the customer's loyalty tier and country of residence. This table enables quick assessment of customer engagement, revenue contribution, and lifecycle stage.",
     "table": "customer_order_summary"
+  },
+  {
+    "description": "The customer_order_summary table provides a consolidated view of each customer's purchasing activity. For every unique customer, it records identifying information such as the customer ID, full name, and email address. It aggregates order metrics, including the total number of orders placed, the count of currently active orders (those in shipping or processing), the number of completed orders, and the number of cancelled orders. Financial performance is captured through the total amount spent across all orders. The table also tracks the chronological span of a customer's activity by storing the date of their first order and the date of their most recent order. Additional demographic context is included via the customer's loyalty program tier and country of residence. This summary enables quick insight into customer value, engagement status, and geographic distribution.",
+    "table": "customer_order_summary"
   }
 ]
