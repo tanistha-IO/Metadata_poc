@@ -1,0 +1,6 @@
+print("this is the new branch A")
+print("adding more changes to branch A")
+print("finalizing changes in branch A")
+print("merging branch A into main")
+print("this is the main branch after merging A")
+print("this is the main branch")
